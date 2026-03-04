@@ -1,0 +1,42 @@
+# Sports2000 Database Schema Summary
+
+This is a summary of the sports2000 database schema. The full schema is available in sports2000.df.
+
+## Sequences
+
+- NextCustNum: Customer numbers (starts at 1000, increment 5)
+- NextOrdNum: Order numbers (starts at 1000, increment 5)
+- NextItemNum: Item numbers (starts at 100, increment 10)
+- NextInvNum: Invoice numbers (starts at 1000, increment 1)
+- NextRefNum: Reference numbers (starts at 1, increment 1)
+- NextVisitor: Visitor numbers (starts at 1000, increment 1)
+- NextSupplNum: Supplier numbers (starts at 0, increment 1)
+- NextEmpNum: Employee numbers (starts at 0, increment 1)
+
+## Main Tables
+
+### Customer
+Customer information including contact details, credit limits, and sales representatives.
+
+### Order
+Customer orders with order dates, ship dates, and carrier information.
+
+### OrderLine
+Line items for orders, linking to items with quantities and prices.
+
+### Item
+Product catalog with item numbers, names, prices, and inventory levels.
+
+### Benefits
+Employee benefits information.
+
+### Employee
+Employee records with personal and employment information.
+
+### Warehouse
+Warehouse locations and information.
+
+### Supplier
+Supplier information for inventory management.
+
+For complete schema details including all fields, indexes, and relationships, refer to dump/sports2000.df in the source repository.
