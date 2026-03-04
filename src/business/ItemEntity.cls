@@ -1,11 +1,12 @@
 /*------------------------------------------------------------------------
   File        : ItemEntity
   Purpose     : Business Entity for Item data access
-  Syntax      : 
-  Description : 
-  Author(s)   : 
-  Created     : 
-  Notes       : 
+  Syntax      : NEW ItemEntity()
+  Description : Provides data access and business logic for Item records.
+                Implements validation rules for price and inventory value.
+  Author(s)   : SteveSouthwell
+  Created     : Tue Mar 04 15:20:00 CST 2026
+  Notes       : Inherits from OpenEdge.BusinessLogic.BusinessEntity
 ----------------------------------------------------------------------*/
 
 USING Progress.Lang.*.

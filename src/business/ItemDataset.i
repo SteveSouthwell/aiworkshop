@@ -1,11 +1,11 @@
 /*------------------------------------------------------------------------
   File        : ItemDataset.i
   Purpose     : Dataset definition for Item entity
-  Syntax      : 
-  Description : 
-  Author(s)   : 
-  Created     : 
-  Notes       : 
+  Syntax      : {business/ItemDataset.i}
+  Description : Defines temp-table and dataset structures for Item business entity
+  Author(s)   : SteveSouthwell
+  Created     : Tue Mar 04 15:20:00 CST 2026
+  Notes       : Used by ItemEntity class for data access operations
 ----------------------------------------------------------------------*/
 
 DEFINE TEMP-TABLE ttItem BEFORE-TABLE bttItem
