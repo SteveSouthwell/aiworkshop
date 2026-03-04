@@ -7,9 +7,9 @@
 &ANALYZE-SUSPEND _UIB-CODE-BLOCK _CUSTOM _DEFINITIONS C-Win 
 /*------------------------------------------------------------------------
 
-  File: 
+  File: ItemWin.w
 
-  Description: 
+  Description: Item maintenance window using business entity pattern
 
   Input Parameters:
       <none>
@@ -17,9 +17,9 @@
   Output Parameters:
       <none>
 
-  Author: 
+  Author: SteveSouthwell
 
-  Created: 
+  Created: Tue Mar 04 15:20:00 CST 2026
 
 ------------------------------------------------------------------------*/
 /*          This .W file was created with the Progress AppBuilder.      */
