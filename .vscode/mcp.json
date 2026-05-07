@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "github": {
+            "type": "http",
+            "disabled": false,
+            "headers": {
+                "Authorization": "Bearer <YOUR_GITHUB_TOKEN>"
+            },
+            "url": "https://api.githubcopilot.com/mcp/"
+        }
+    }
+}
